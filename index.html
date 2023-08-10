@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>barampadampam</title>
+</head>
+<body>
+<main class="boxcontent"> 
+    <div id="drum-machine">
+    <button data-sound="kick">Kick</button>
+    <button data-sound="chord2">C2</button>
+    <button data-sound="hihat">Hi-Hat</button>
+    
+    
+    <button id="play-btn">Play</button>
+
+<audio data-sound="kick" src="audio/Kick_n_Hat.mp3"></audio>
+<audio data-sound="chord2" src="audio/Chord_2.mp3"></audio>
+<audio data-sound="hihat" src="audio/Dsc_Oh.mp3"></audio>
+  <label for="tempo">Tempo (BPM):</label>
+  <input type="number" id="tempo" min="40" max="300" value="120">
+  </div>
+</main>
+</body>
+</html>
